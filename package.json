@@ -1,0 +1,15 @@
+{
+    "name": "discord-bot",
+    "version": "1.0.0",
+    "description": "Bot Discord",
+    "main": "bot.js",
+    "scripts": {
+      "start": "node bot.js"
+    },
+    "dependencies": {
+      "discord.js": "^14.0.0",
+      "@discordjs/rest": "^1.0.0",
+      "discord-api-types": "^0.35.0"
+    }
+  }
+  
