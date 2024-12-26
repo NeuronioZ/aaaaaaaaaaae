@@ -5,8 +5,8 @@ const { Routes } = require('discord-api-types/v9');
 const charadaCommand = require('./charadaCommand'); // Importando o comando charada
 const pontosCommand = require('./pontosCommand'); // Importando o comando pontos
 
-const TOKEN = 'MTMxMjYyMDg3Mzc0Mzg2Mzk0OQ.G4BfX6.NE7tROH7BCxSoQNTLwUe9l0ZHjFCc3gCCSJrQI'; // Substitua pelo token do bot
-const CLIENT_ID = '1312620873743863949'; // Substitua pelo CLIENT_ID
+const TOKEN = 'token'; // Substitua pelo token do bot
+const CLIENT_ID = 'id'; // Substitua pelo CLIENT_ID
 
 const client = new Client({
   intents: [
